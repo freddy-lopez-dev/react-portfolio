@@ -2,6 +2,7 @@ import React from 'react';
 import CTA from './CTA';
 import './header.css';
 import Social from './Social';
+import RPME2 from '../../assets/RPME.png';
 /*insert image of me on me div*/
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
         <h5 className="text-light">UI/UX Designer / Software Developer</h5>
         <CTA />
         <Social />
-        <div className="me"></div>
+        <div className="me">
+          <img src={RPME2} alt="rpme" />
+        </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>

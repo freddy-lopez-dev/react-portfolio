@@ -37,6 +37,13 @@ header {
   background: var(--color-primary);
 }
 
+.me {
+  width: 40rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 20rem);
+}
+
 /* scroll down*/
 .scroll__down {
   position: absolute;
