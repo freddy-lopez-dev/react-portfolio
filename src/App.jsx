@@ -7,20 +7,18 @@ import Services from './components/services/Services';
 import Project from './components/project/Project';
 import Feedback from './components/feedback/Feedback';
 import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
 
 export const App = () => {
   return (
     <>
       <Header />
       <Nav />
-      <About />
       <Experience />
       <Services />
       <Project />
       <Feedback />
+      <About />
       <Contact />
-      <Footer />
     </>
   );
 };
