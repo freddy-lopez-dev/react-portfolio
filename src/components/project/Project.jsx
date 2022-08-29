@@ -2,10 +2,11 @@ import React from 'react';
 import './project.css';
 import IMG1 from '../../assets/freddy-flix.jpg';
 import IMG2 from '../../assets/portfolio2.png';
-import IMG3 from '../../assets/portfolio3.png';
+import IMG3 from '../../assets/redditovrflow-logo.png';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/Ads.jpg';
+import IMG7 from '../../assets/Food-Order-app.png';
 
 const data = [
   {
@@ -47,6 +48,13 @@ const data = [
     id: 6,
     image: IMG6,
     title: 'Dubai Outlet Village App',
+    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
+    demo: 'https://freddy-flix.netlify.app/',
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Food Ordering App NextJS',
     github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
     demo: 'https://freddy-flix.netlify.app/',
   },
