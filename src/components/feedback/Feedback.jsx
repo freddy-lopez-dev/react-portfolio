@@ -18,38 +18,39 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Lena De Geer',
-    review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+    designation: 'IT Regional Head',
+    review: 'TBA',
   },
   {
     avatar: AVTR2,
     name: 'Robert Mitchell',
-    review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+    designation: 'Managing Director',
+    review: 'TBA',
   },
   {
     avatar: AVTR3,
     name: 'Celeen David',
+    designation: 'Project Manager',
     review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+      'Fred is a great team player. He is multidisciplinary professional. He creates everything with passion backed up with research!',
   },
   {
     avatar: AVTR4,
     name: 'Ivan Papic',
-    review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+    designation: 'Senior Software Developer',
+    review: 'TBA',
   },
   {
     avatar: AVTR5,
     name: 'Kim Bienes',
-    review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+    designation: 'Project Manager',
+    review: 'TBA',
   },
   {
     avatar: AVTR6,
     name: 'Bharat Shankar',
-    review:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum consequatur perferendis totam aperiam nulla officiis necessitatibus tempore, nesciunt saepe sint quaerat natus, doloribus rem recusandae! Corporis reprehenderit repudiandae odit eaque!',
+    designation: 'Digital Project Lead',
+    review: 'TBA',
   },
 ];
 
@@ -65,13 +66,14 @@ const Feedback = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, review, designation }, index) => {
           return (
             <SwiperSlide className="testimonial" key={index}>
               <div className="client__avatar">
                 <img src={avatar} alt={name} />
               </div>
               <h5 className="client__name">{name}</h5>
+              <small>{designation}</small>
               <small className="client__review">{review}</small>
             </SwiperSlide>
           );
