@@ -36,11 +36,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            consequatur eligendi? Pariatur, blanditiis? Facilis placeat a
-            maiores, omnis recusandae alias veritatis explicabo ab,
-            reprehenderit sapiente dolores eligendi tenetur? Perspiciatis,
-            distinctio.
+            I'm a full-stack web developer with exceptional skills in UI/UX
+            based in Manitoba Canada. Working with one of the largest companies
+            in the Middle East and North Africa and now sharing expertise in
+            North America. Getting users on the right path to the digital world
+            is something I am passionate about.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact

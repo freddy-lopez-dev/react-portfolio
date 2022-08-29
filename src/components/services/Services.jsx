@@ -16,23 +16,39 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>User persona creation</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>UX research (Behavioral & Attidunal)</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Empathy map</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>User Story and sitemap</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Usability Testing</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>low and high fidelity wireframe</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Design Specification / Component creation</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Follow atomic design by Brad Frost</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Prototype (POC in actual system or in XD/Figma)</p>
             </li>
           </ul>
         </article>
@@ -45,52 +61,62 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Full stack development</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Full-Service Design and Development</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Continuous support and evolution</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>
+                Various experiences on Ecommerce, Web and Desktop Applications
+              </p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Small to mid sized business digital transformation</p>
             </li>
           </ul>
         </article>
         {/* END OF Web dev */}
         <article className="service">
           <div className="service__head">
-            <h3>Graphic Design</h3>
+            <h3>Procedural tools and helpers</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>GitHub</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Agile Scrum</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Postman</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>NPM</p>
             </li>
             <li>
               <BsCheckLg className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Material UI and Bootstrap</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Netlify</p>
+            </li>
+            <li>
+              <BsCheckLg className="service__list-icon" />
+              <p>Jenkins</p>
             </li>
           </ul>
         </article>

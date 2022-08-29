@@ -1,11 +1,11 @@
 import React from 'react';
 import './project.css';
-import IMG1 from '../../assets/portfolio1.png';
+import IMG1 from '../../assets/freddy-flix.jpg';
 import IMG2 from '../../assets/portfolio2.png';
 import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.jpg';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/Ads.jpg';
 
 const data = [
   {
@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'Lumen8 Ecommerce React App',
+    title: 'Lumen8 Ecommerce NextJS',
     github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
     demo: 'https://freddy-flix.netlify.app/',
   },
@@ -32,21 +32,21 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'LandRover Mobile Prototype',
+    title: 'Land Rover Own Your Land',
     github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
     demo: 'https://freddy-flix.netlify.app/',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Shipping and Logistic Customer Portal',
+    title: 'GAC Shipping and Logistic Customer Portal',
     github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
     demo: 'https://freddy-flix.netlify.app/',
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Minigames',
+    title: 'Dubai Outlet Village App',
     github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
     demo: 'https://freddy-flix.netlify.app/',
   },
