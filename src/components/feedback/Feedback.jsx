@@ -16,6 +16,13 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    avatar: AVTR3,
+    name: 'Celeen David',
+    designation: 'Project Manager',
+    review:
+      'Fred is a great team player. He is multidisciplinary professional. He creates everything with passion backed up with research!',
+  },
+  {
     avatar: AVTR1,
     name: 'Lena De Geer',
     designation: 'IT Regional Head',
@@ -27,13 +34,7 @@ const data = [
     designation: 'Managing Director',
     review: 'TBA',
   },
-  {
-    avatar: AVTR3,
-    name: 'Celeen David',
-    designation: 'Project Manager',
-    review:
-      'Fred is a great team player. He is multidisciplinary professional. He creates everything with passion backed up with research!',
-  },
+
   {
     avatar: AVTR4,
     name: 'Ivan Papic',

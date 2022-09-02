@@ -7,8 +7,24 @@ import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/Ads.jpg';
 import IMG7 from '../../assets/Food-Order-app.png';
+import IMG8 from '../../assets/portnow.png';
+import portal from '../../assets/portal.pdf';
 
 const data = [
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Lumen8 Ecommerce NextJS',
+    github: 'https://github.com/freddy-lopez-dev/Lumen8',
+    demo: '',
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Reddit inspired MVC App',
+    github: 'https://github.com/freddy-lopez-dev/SD-330-W22SD-Assignment',
+    demo: '',
+  },
   {
     id: 1,
     image: IMG1,
@@ -17,46 +33,39 @@ const data = [
     demo: 'https://freddy-flix.netlify.app/',
   },
   {
-    id: 2,
-    image: IMG2,
-    title: 'Lumen8 Ecommerce NextJS',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Reddit inspired MVC App',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
-  },
-  {
     id: 4,
     image: IMG4,
     title: 'Land Rover Own Your Land',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
+    github: '',
+    demo: 'https://xd.adobe.com/view/a3c1d9a1-dcc0-4d7c-bf88-49d46b9ea671-f692/',
   },
   {
     id: 5,
     image: IMG5,
     title: 'GAC Shipping and Logistic Customer Portal',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
+    github: '',
+    demo: portal,
   },
   {
     id: 6,
-    image: IMG6,
-    title: 'Dubai Outlet Village App',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
+    image: IMG8,
+    title: 'GAC Port Now',
+    github: '',
+    demo: 'https://xd.adobe.com/view/bf875b01-4e56-462e-90eb-31392608f1b9-ead4/?fullscreen',
   },
   {
     id: 7,
+    image: IMG6,
+    title: 'Dubai Outlet Village App',
+    github: '',
+    demo: 'https://xd.adobe.com/view/779ffc66-6634-479d-8466-7ca5eca2ae1e-22cc/?fullscreen',
+  },
+  {
+    id: 8,
     image: IMG7,
     title: 'Food Ordering App NextJS',
-    github: 'https://github.com/freddy-lopez-dev/freddyflix-react',
-    demo: 'https://freddy-flix.netlify.app/',
+    github: 'https://github.com/freddy-lopez-dev/next-supreme',
+    demo: '',
   },
 ];
 
@@ -75,19 +84,24 @@ const Project = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a
-                  href={github}
-                  className="btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
+                {github === '' ? (
+                  ''
+                ) : (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                )}
                 <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
+                  download
                 >
                   Live Demo
                 </a>
