@@ -16,7 +16,7 @@ const data = [
     image: IMG2,
     title: 'Lumen8 Ecommerce NextJS',
     github: 'https://github.com/freddy-lopez-dev/Lumen8',
-    demo: '',
+    demo: 'https://lumen8-freddy-lopez-dev.vercel.app/#d',
   },
   {
     id: 3,
@@ -65,7 +65,7 @@ const data = [
     image: IMG7,
     title: 'Food Ordering App NextJS',
     github: 'https://github.com/freddy-lopez-dev/next-supreme',
-    demo: '',
+    demo: 'https://next-supreme.vercel.app/',
   },
 ];
 
